@@ -1,5 +1,6 @@
 # CMS Blog Project
 
+
 This is a simple Content Management System project developed using HTML, CSS and JavaScript.
 
 Features:
