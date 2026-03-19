@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Post</title>
+</head>
+
+<body>
+
+<h1>Create Blog Post</h1>
+
+<label>Title:</label><br>
+<input type="text" id="title"><br><br>
+
+<label>Content:</label><br>
+<textarea id="content" rows="6" cols="40"></textarea><br><br>
+
+<button onclick="publishPost()">Publish</button>
+
+<script>
+function publishPost() {
+
+var title = document.getElementById("title").value;
+var content = document.getElementById("content").value;
+
+if(title == "" || content == "") {
+alert("Please fill all fields");
+}
+else {
+alert("Post Published Successfully!");
+}
+
+}
+</script>
+
+</body>
+</html>
