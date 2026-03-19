@@ -9,4 +9,3 @@ Features:
 - Publish functionality
 
 GitHub Link:
-https://github.com/yourusername/upskillcampus
